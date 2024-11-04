@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="javascript.js" defer></script>
     <title>Calculator</title>
 </head>
 <body>
     <div id="container">
         <div id="topItems"> 
-            <p id="textBrowser"></p>
+            <p id="textBrowser">0</p>
             <div id="backspace"></div>
         </div>
+        <div><hr></div>
         <div id="bottomItems">
             <input type="button" id="cleanScreen" value="C">
+            <input type="button" class="otherOperation" value="()">
             <input type="button" class="operation" value="%">
             <input type="button" class="operation" value="÷">
             <input type="button" class="number" value="7">
@@ -23,14 +26,15 @@
             <input type="button" class="number" value="4">
             <input type="button" class="number" value="5">
             <input type="button" class="number" value="6">
+            <input type="button" class="operation" value="-">
             <input type="button" class="number" value="1">
             <input type="button" class="number" value="2">
             <input type="button" class="number" value="3">
             <input type="button" class="operation" value="+">
-            <input type="button" class="operation" value="+/-">
+            <input type="button" class="otherOperation" value="+/-">
             <input type="button" class="number" value="0">
-            <input type="button" value=",">
-            <input type="button" value="=">
+            <input type="button" class="otherOperation" value=",">
+            <input type="button" id="equalTo" value="=">
         </div>
     </div>
 </body> 

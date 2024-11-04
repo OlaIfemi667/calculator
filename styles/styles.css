@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    color: gray;
+    height: 5%;
+    width: 90%;
+}
+
+#topItems #textBrowser{
+    color: wheat;
+    display: flex;
+    justify-content: flex-end;
+}
+#container{
+    background-color: black;
+    height: 566.4px;
+    width: 265.92px;
+}
+#topItems{
+    height: 40%;
+    width: auto;
+    padding: 10%;
+    box-sizing: border-box;
+}
+
+#bottomItems{
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+#bottomItems input{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #243015af;
+    border: none;
+}
+#bottomItems input:hover{
+    opacity: 0.5;
+}
+
+#bottomItems input:focus{
+    font-size: 80%;
+}
+
+
+.number{
+    color: #ffa600a6;
+}
+
+#bottomItems .operation{
+    color: skyblue;
+    font-size: 30px;
+}
+
+#bottomItems #cleanScreen{
+    color: red;
+}
+#bottomItems .otherOperation{
+    color: red;
+}
+#bottomItems #equalTo{
+    background-color: skyblue;
+    color: black;
+}
