@@ -14,6 +14,7 @@ hr{
     color: wheat;
     display: flex;
     justify-content: flex-end;
+    font-size: 30px;
 }
 #container{
     background-color: black;
